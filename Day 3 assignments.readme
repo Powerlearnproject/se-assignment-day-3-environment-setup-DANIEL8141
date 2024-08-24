@@ -1,0 +1,15 @@
+Here's what the commands do:
+
+1. **`echo "# se-assignment-day-3-environment-setup-DANIEL8141" >> README.md`**: Adds a line with the title of the project to the `README.md` file. If the file doesn't exist, it creates it.
+
+2. **`git init`**: Initializes a new Git repository in the current directory.
+
+3. **`git add README.md`**: Stages the `README.md` file to be committed.
+
+4. **`git commit -m "first commit"`**: Commits the staged file with the message "first commit."
+
+5. **`git branch -M main`**: Renames the current branch to `main`.
+
+6. **`git remote add origin https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-DANIEL8141.git`**: Adds a remote repository with the name `origin`, pointing to the specified GitHub URL.
+
+7. **`git push -u origin main`**: Pushes the `main` branch to the `origin` remote repository and sets `origin/main` as the default upstream branch.
